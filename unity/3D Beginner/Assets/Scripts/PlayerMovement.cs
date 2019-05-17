@@ -18,7 +18,8 @@ public class PlayerMovement : MonoBehaviour
     m_RigidBody = GetComponent<Rigidbody>();
   }
 
-  void FixedUpdate(){
+  void FixedUpdate()
+  {
     float horizontal = Input.GetAxis("Horizontal"),
           vertical = Input.GetAxis("Vertical");
 
